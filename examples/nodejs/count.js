@@ -1,6 +1,6 @@
 (function(){
-	var counter = 0;
-	var echo = function(){
+	let counter = 0;
+	const echo = function(){
 		if (counter === 10){
 			return;
 		}
